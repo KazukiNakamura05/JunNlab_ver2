@@ -118,6 +118,7 @@ header a{
 }
 .activity-wrapper a{
     text-decoration: none;
+    color: #000;
 }
 .activity-wrapper a:hover{
     text-decoration: underline;

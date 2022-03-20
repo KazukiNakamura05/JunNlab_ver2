@@ -1,0 +1,87 @@
+@media all and (max-width: 1000px){
+
+.header-list {
+    display:none;
+}
+
+.ACheader-list {
+    display:block;
+}
+
+.menu {
+    display: none;
+}
+
+.menu-icon {
+    display:block;
+}
+
+}
+
+@media screen and (max-width: 670px) {
+
+.content {
+    margin-left: 20px;
+}
+.contact iframe { 
+    width: 330px;
+}
+
+.rsm-wrap {
+    padding: 0 10px;
+}
+
+.page-paper {
+    padding: 2.8em 1em 1em 1em;
+}
+
+.title {
+    font-size: 1.8rem;
+}
+
+.belongs .jp {
+    font-size: 1.0rem;
+}
+
+.name .jp {
+    font-size: 1.5rem;
+}
+
+.name .en {
+    font-size: 1.2rem;
+}
+
+.rsm-wrap dl dd .name::after {
+    top: 60px;
+}
+
+.exp-place {
+    font-size: 1.0em;
+}
+
+.papers .sub_title {
+    font-size: 1.6em;
+}
+
+.paper_list li {
+    margin-bottom: 10vw;
+}
+
+.paper_list li .paper_card {
+    padding: 6%;
+}
+
+.paper_list li .paper_card .paper_title {
+    font-size: 1.0em;
+    margin-bottom: 6px;
+}
+
+.paper_list li .paper_card .paper_sub {
+    font-size: 0.8em;
+}
+
+.paper_button {
+    font-size: 0.8rem;
+}
+
+}

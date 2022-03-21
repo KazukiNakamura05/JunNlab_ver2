@@ -1029,6 +1029,12 @@ footer{
   h4:after {
     right: 0;
   }
+  .website-links li{
+    font-size: 13px;
+  }
+  .contact p{
+    font-size: 13px;
+  }
   .contact iframe{
     width: 100%;
   }

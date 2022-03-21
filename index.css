@@ -392,5 +392,8 @@ footer{
         font-size: 14px;
         line-height: 25px;
     }
+    .line{
+        width: 50%;
+    }
 }
 

@@ -383,7 +383,10 @@ footer{
     line-height: 20px;
   }
   .website-links li{
-    font-size: 15px;
+    font-size: 13px;
+  }
+  .contact p{
+    font-size: 13px;
   }
   .contact iframe{
     width: 100%;

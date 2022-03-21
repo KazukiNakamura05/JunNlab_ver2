@@ -373,6 +373,9 @@ footer{
     }
 }
 @media screen and (max-width: 470px){
+    .intro h1{
+        font-size: 13px;
+    }
     .website-links li{
         font-size: 15px;
     }

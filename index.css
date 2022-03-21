@@ -210,6 +210,7 @@ header{
 .shinyu-wrapper{
     width: 650px;
     display: flex;
+    flex-direction: row-reverse;
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
@@ -224,12 +225,11 @@ header{
     text-align: center;
 }
 .shinyu-message p{
-    padding-left: 20px;
+    padding-right: 20px;
 }
 .eki-wrapper{
     width: 650px;
     display: flex;
-    flex-direction: row-reverse;
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
@@ -244,7 +244,7 @@ header{
     text-align: center;
 }
 .eki-message p{
-    padding-right: 20px;
+    padding-left: 20px;
 }
 .kurokawa-wrapper{
     width: 650px;

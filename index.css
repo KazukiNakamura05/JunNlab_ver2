@@ -385,6 +385,9 @@ footer{
     .contact iframe{
         width: 100%;
     }
+    .aboutus-wrapper h1 {
+        font-size: 30px;
+    }
     .aboutus-wrapper h2{
         font-size: 18px;
     }

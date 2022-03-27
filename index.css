@@ -343,9 +343,6 @@ footer{
     .messages p{
       font-size: 13px;
     }
-    .messages img{
-      width: 100px;
-    }
     .messages h3{
       font-size: 13px;
     }
@@ -397,6 +394,30 @@ footer{
     }
     .line{
         width: 50%;
+    }
+     .yuzuki-wrapper{
+      flex-direction: column;
+    }
+    .shinyu-wrapper{
+      flex-direction: column;
+    }
+    .eki-wrapper{
+      flex-direction: column;
+    }
+    .kurokawa-wrapper{
+      flex-direction: column;
+    }
+    .yuzuki-message p{
+      padding-left: 0;
+    }
+    .shinyu-message p{
+      padding-right: 0;
+    }
+    .eki-message p{
+      padding-left: 0;
+    }
+    .kurokawa-message p{
+      padding-right: 0;
     }
 }
 

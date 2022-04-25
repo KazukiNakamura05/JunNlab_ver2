@@ -254,6 +254,7 @@ header{
     padding: 20px;
     border-radius: 10px;
     align-items: center;
+    margin-bottom: 20px;
     box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
 }
 .kurokawa-img{
@@ -264,6 +265,24 @@ header{
 }
 .kurokawa-message p{
     padding-right: 20px;
+}
+.sakai-wrapper{
+  width: 650px;
+  display: flex;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  align-items: center;
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
+}
+.sakai-img{
+  text-align: center;
+}
+.sakai-img h3{
+  text-align: center;
+}
+.sakai-message p{
+  padding-left: 20px;
 }
 footer{
     background-color:rgb(30, 50, 70);
@@ -340,6 +359,9 @@ footer{
     .kurokawa-wrapper{
         width: 95%;
     }
+    .sakai-wrapper{
+        width: 95%;
+    }
     .messages p{
       font-size: 13px;
     }
@@ -371,7 +393,7 @@ footer{
 }
 @media screen and (max-width: 470px){
     .intro h1{
-        font-size: 13px;
+      font-size: 13px;
     }
     .website-links li{
         font-size: 13px;
@@ -395,7 +417,7 @@ footer{
     .line{
         width: 50%;
     }
-     .yuzuki-wrapper{
+    .yuzuki-wrapper{
       flex-direction: column;
     }
     .shinyu-wrapper{
@@ -405,6 +427,9 @@ footer{
       flex-direction: column;
     }
     .kurokawa-wrapper{
+      flex-direction: column;
+    }
+    .sakai-wrapper{
       flex-direction: column;
     }
     .yuzuki-message p{
@@ -418,6 +443,9 @@ footer{
     }
     .kurokawa-message p{
       padding-right: 0;
+    }
+    .sakai-message p{
+      padding-left: 0;
     }
 }
 
